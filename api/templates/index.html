@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <h1 id="classification-heading">Plant-Disease Classification Project</h1>
+        <div id="drop-area" ondrop="handleDrop(event)" ondragover="preventDefault(event)">
+            <img id="image-preview" src="#" alt="Dropped Image" style="display: none;">
+            <p id="drop-text">Drag and drop an image here</p>
+        </div>
+        <br>
+        <div id="classification-result">Drop image to see the result</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
