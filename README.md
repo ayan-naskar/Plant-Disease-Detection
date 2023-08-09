@@ -75,24 +75,8 @@ The model is trained on various images of plant leaves, both healthy and disease
 3. Extract the downloaded dataset into a folder named `PlantVillage` within the project directory. The folder structure should look like this:
 
 
-Early-Plant-Disease-Detection/
-│
-├── saved_models/
-│
-├── PlantVillage/
-│ ├── Potato___Early_blight/
-│ ├── Potato___Late_blight/
-│ └── Potato___healthy/
-│
-├── README.md
-│
-├── app.py
-│
-├── index.html
-│
-├── style.css
-│
-└── script.js
+![image](https://github.com/ayan-naskar/Plant-Disease-Detection/assets/88626486/5cc9e293-c61c-423f-8588-b95394db6721)
+
 
 4. Ensure required libraries are installed (`os`, `tensorflow`, `matplotlib.pyplot`, `numpy`, `sklearn`, `seaborn`, `flask`, `PIL`, `cv2`).
 5. Run the provided code sections in your preferred Python environment.
